@@ -1,0 +1,46 @@
+.main-container {
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  border: 0;
+}
+
+.addIssue-container {
+  background-color: #f7f7f8;
+  border: 2px solid #e6e6e6;
+  padding: 25px;
+}
+
+.form-control {
+  vertical-align: middle;
+}
+
+.result-container {
+  border: 2px solid red;
+  padding: 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.issueDesc {
+  margin-top: 15px;
+}
+
+.sevSelection, .respData {
+  font-size: 90%;
+}
+
+#result-box {
+  margin-top: -20px;
+}
+
+.issueNumber {
+  font-size: 90%;
+  opacity: 0.7;
+}
+
+.btn-info {
+  margin-top: 5px;
+}

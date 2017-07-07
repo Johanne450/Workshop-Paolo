@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <div class="main-container">
+    <div class="card">
+      <div class="card-block">
+        <h1 class="card-title">JS Issue Tracker</h1>
+        <div class="addIssue-container">
+          <h3 class="card-subtitle mb-2 text-muted">Add a New Issue</h3>
+          <form>
+            <p>Issue:</p>
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1"><img src="https://png.icons8.com/github/win10/16" title="GitHub" width="16" height="16" alt=""></span>
+              <input type="text" class="form-control" id="issueInput" placeholder="PLease describe issue... " aria-describedby="basic-addon1">
+            </div></br>
+            <p>Severity:</p>
+            <div class="input-group">
+            <span class="input-group-addon" id="basic-addon2"><img src="https://png.icons8.com/clock/p1em/16" title="Clock" width="16" height="16"></span>
+            <select class="form-control" id="severitySelect">
+              <option selected>Choose severity</option>
+              <option value="Low">Low</option>
+              <option value="Medium">Medium</option>
+              <option value="High">High</option>
+            </select>
+          </div></br>
+            <p>Assigned to:</p>
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon2"><img src="https://png.icons8.com/male-user/win8/26" title="Male User" width="16" height="16"></span>
+
+              <input type="text" class="form-control" id="assignedToInput" placeholder="Enter Person Responsible For...">
+            </div></br>
+            <button class="btn btn-primary" id="button" type="submit">Track Issue</button>
+          </form>
+        </div>
+        </div>
+        <div class="card-block" id="result-box">
+            <!-- <div class="result-container">
+              <div class="issueNumber text-muted">
+                Issue ID:&nbsp;&nbsp;<span id="issueNumber"></span>
+              </div>
+                <p><button type="button" class="btn btn-info btn-sm" id="btn-openIssue">Open</button></p>
+              <div class="details">
+                <h2 class="issueDesc"></h2>
+                <p class="sevSelection"><img src="https://png.icons8.com/clock/p1em/16" title="Clock" width="16" height="16"></p>
+                <p class="respData"><img src="https://png.icons8.com/male-user/win8/26" title="Male User" width="16" height="16"></p>
+                <button type="button" class="btn btn-warning" id="btn-closeIssue">Close</button>&nbsp;<button type="button" class="btn btn-danger" id="btn-delIssue">Delete</button>
+              </div>
+            </div> -->
+        </div>
+      </div>
+    </div>
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.8/uuid.js"></script> for generating random alphanumeric numbers //// CAN'T GET IT TO WORK!! -->
+  <script src="app-test.js"></script>
+
+
+</body>
+</html>
